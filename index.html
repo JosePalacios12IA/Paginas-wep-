@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Fogón Dorado | Restaurante</title>
+<meta name="description" content="El Fogón Dorado - Cocina de autor, sabores intensos e ingredientes frescos. Reserva tu mesa hoy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader"><div class="loader-flame"><i class="fa-solid fa-fire"></i></div></div>
+
+<!-- NAV -->
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo"><i class="fa-solid fa-fire"></i> El Fogón <span>Dorado</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#menu">Menú</a>
+      <a href="#galeria">Galería</a>
+      <a href="#opiniones">Opiniones</a>
+      <a href="#reservas">Reservas</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a href="#reservas" class="btn btn-primary nav-cta">Reservar Mesa</a>
+    <button class="hamburger" id="hamburger" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-media">
+    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1920&q=80" alt="Plato gourmet del restaurante El Fogón Dorado" loading="eager">
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="container hero-content">
+    <p class="hero-eyebrow">🔥 Sabor que enamora desde 2010</p>
+    <h1>El Fuego que <span>Despierta</span><br> tu Apetito</h1>
+    <p class="hero-text">Ingredientes frescos, brasa a leña y recetas de autor. Una experiencia que se disfruta con los ojos antes que con el paladar.</p>
+    <div class="hero-actions">
+      <a href="#reservas" class="btn btn-primary"><i class="fa-solid fa-utensils"></i> Reservar Mesa</a>
+      <a href="#menu" class="btn btn-outline"><i class="fa-solid fa-book-open"></i> Ver Menú</a>
+    </div>
+    <div class="hero-stats">
+      <div><strong>14</strong><span>Años de sabor</span></div>
+      <div><strong>4.9★</strong><span>+2,300 reseñas</span></div>
+      <div><strong>50+</strong><span>Platos de autor</span></div>
+    </div>
+  </div>
+  <a href="#nosotros" class="scroll-down" aria-label="Bajar"><i class="fa-solid fa-chevron-down"></i></a>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>🔥 CARNES A LA BRASA</span><span>🍝 PASTA ARTESANAL</span><span>🦐 MARISCOS FRESCOS</span><span>🍷 CARTA DE VINOS</span><span>🍰 POSTRES CASEROS</span>
+    <span>🔥 CARNES A LA BRASA</span><span>🍝 PASTA ARTESANAL</span><span>🦐 MARISCOS FRESCOS</span><span>🍷 CARTA DE VINOS</span><span>🍰 POSTRES CASEROS</span>
+  </div>
+</div>
+
+<!-- NOSOTROS -->
+<section class="about" id="nosotros">
+  <div class="container about-grid">
+    <div class="about-media">
+      <img class="img-main" src="https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=900&q=80" alt="Chef preparando plato en El Fogón Dorado">
+      <img class="img-float" src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?auto=format&fit=crop&w=500&q=80" alt="Interior acogedor del restaurante">
+      <div class="badge-exp"><strong>14+</strong><span>Años</span></div>
+    </div>
+    <div class="about-content">
+      <p class="section-eyebrow">Nuestra historia</p>
+      <h2>Pasión por el fuego,<br> respeto por el ingrediente</h2>
+      <p>En El Fogón Dorado creemos que la buena mesa empieza en el mercado. Seleccionamos cada ingrediente al amanecer y lo llevamos a la brasa con técnicas que honran la cocina tradicional, con un toque contemporáneo que sorprende en cada bocado.</p>
+      <ul class="about-list">
+        <li><i class="fa-solid fa-leaf"></i> Ingredientes 100% frescos y de temporada</li>
+        <li><i class="fa-solid fa-fire-burner"></i> Cocina a la brasa con leña natural</li>
+        <li><i class="fa-solid fa-award"></i> Chef premiado con 15 años de trayectoria</li>
+      </ul>
+      <a href="#menu" class="btn btn-primary">Descubre el Menú <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu" id="menu">
+  <div class="container">
+    <p class="section-eyebrow center">Nuestra carta</p>
+    <h2 class="center">Un Menú que Enamora</h2>
+    <p class="section-sub center">Cada plato está pensado para despertar tus sentidos</p>
+
+    <div class="menu-tabs" id="menuTabs">
+      <button class="tab-btn active" data-tab="entradas">Entradas</button>
+      <button class="tab-btn" data-tab="fuertes">Platos Fuertes</button>
+      <button class="tab-btn" data-tab="postres">Postres</button>
+      <button class="tab-btn" data-tab="bebidas">Bebidas</button>
+    </div>
+
+    <div class="menu-panel active" data-panel="entradas">
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="https://images.unsplash.com/photo-1543353071-873f17a7a088?auto=format&fit=crop&w=500&q=80" alt="Ensalada fresca de temporada">
+          <div class="menu-card-info"><h4>Ensalada de Temporada <span>$8.50</span></h4><p>Mix de hojas verdes, queso de cabra, nueces y vinagreta de miel.</p></div>
+        </div>
+        <div class="menu-card">
+          <img src="https://images.unsplash.com/photo-1626200419199-391ae4be7a41?auto=format&fit=crop&w=500&q=80" alt="Tabla de quesos y embutidos">
+          <div class="menu-card-info"><h4>Tabla del Fogón <span>$12.00</span></h4><p>Selección de quesos, embutidos artesanales y pan de la casa.</p></div>
+        </div>
+        <div class="menu-card">
+          <img src="https://images.unsplash.com/photo-1548340748-6d2b7d7da280?auto=format&fit=crop&w=500&q=80" alt="Crema de calabaza">
+          <div class="menu-card-info"><h4>Crema de Calabaza <span>$7.00</span></h4><p>Suave crema asada con especias y aceite de trufa.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-panel" data-panel="fuertes">
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=500&q=80" alt="Corte de carne a la brasa">
+          <div class="menu-card-info"><h4>Ojo de Bife a la Brasa <span>$24.90</span></h4><p>300g de corte premium, papas rústicas y chimichurri casero.</p></div>
+        </div>
+        <div class="menu-card">
+          <img src="https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&w=500&q=80" alt="Risotto de mariscos">
+          <div class="menu-card-info"><h4>Risotto de Mariscos <span>$19.50</span></h4><p>Arroz cremoso, camarones, mejillones y toque de azafrán.</p></div>
+        </div>
+        <div class="menu-card">
+          <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=500&q=80" alt="Pasta artesanal">
+          <div class="menu-card-info"><h4>Pasta al Fogón <span>$16.00</span></h4><p>Fettuccine casero en salsa de champiñones y parmesano.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-panel" data-panel="postres">
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="https://images.unsplash.com/photo-1624353365286-3f8d62daad51?auto=format&fit=crop&w=500&q=80" alt="Volcán de chocolate">
+          <div class="menu-card-info"><h4>Volcán de Chocolate <span>$7.90</span></h4><p>Bizcocho tibio, corazón líquido y helado de vainilla.</p></div>
+        </div>
+        <div class="menu-card">
+          <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=500&q=80" alt="Cheesecake artesanal">
+          <div class="menu-card-info"><h4>Cheesecake de la Casa <span>$6.90</span></h4><p>Base de galleta, queso cremoso y coulis de frutos rojos.</p></div>
+        </div>
+        <div class="menu-card">
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=500&q=80" alt="Postre gourmet">
+          <div class="menu-card-info"><h4>Tiramisú Clásico <span>$6.50</span></h4><p>Receta italiana tradicional con café espresso y mascarpone.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-panel" data-panel="bebidas">
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=500&q=80" alt="Copa de vino tinto">
+          <div class="menu-card-info"><h4>Copa de Vino Selección <span>$8.00</span></h4><p>Carta de vinos nacionales e importados.</p></div>
+        </div>
+        <div class="menu-card">
+          <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=500&q=80" alt="Coctel artesanal">
+          <div class="menu-card-info"><h4>Coctel de la Casa <span>$9.50</span></h4><p>Mixología artesanal con frutas frescas de temporada.</p></div>
+        </div>
+        <div class="menu-card">
+          <img src="https://images.unsplash.com/photo-1621263764928-df1444c5e859?auto=format&fit=crop&w=500&q=80" alt="Jugo natural">
+          <div class="menu-card-info"><h4>Jugo Natural <span>$4.50</span></h4><p>Frutas frescas exprimidas al momento.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="container cta-inner">
+    <div>
+      <h3>¿Se te antojó? No esperes más.</h3>
+      <p>Reserva tu mesa y vive la experiencia El Fogón Dorado hoy mismo.</p>
+    </div>
+    <a href="#reservas" class="btn btn-light">Reservar Ahora <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section class="gallery" id="galeria">
+  <div class="container">
+    <p class="section-eyebrow center">Un festín visual</p>
+    <h2 class="center">Nuestra Galería</h2>
+    <p class="section-sub center">Cada foto, un antojo</p>
+  </div>
+  <div class="gallery-grid">
+    <div class="g-item big"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80" alt="Hamburguesa gourmet"></div>
+    <div class="g-item"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" alt="Mesa servida con variedad de platos"></div>
+    <div class="g-item"><img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=600&q=80" alt="Plato de pasta"></div>
+    <div class="g-item"><img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=600&q=80" alt="Plato principal presentado"></div>
+    <div class="g-item"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" alt="Mesa de restaurante ambientada"></div>
+    <div class="g-item big"><img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=900&q=80" alt="Ambiente interior del restaurante"></div>
+  </div>
+</section>
+
+<!-- OPINIONES -->
+<section class="testimonials" id="opiniones">
+  <div class="container">
+    <p class="section-eyebrow center light">Lo que dicen</p>
+    <h2 class="center light">Clientes Felices</h2>
+    <div class="testi-track" id="testiTrack">
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p>"La mejor experiencia gastronómica de la ciudad. El ojo de bife estaba perfecto y el ambiente es increíble."</p>
+        <div class="testi-user"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80" alt="Cliente"><div><strong>María Torres</strong><span>Cliente frecuente</span></div></div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p>"Cada plato es una obra de arte. El servicio impecable y los postres, una locura. Volveremos seguro."</p>
+        <div class="testi-user"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Cliente"><div><strong>Carlos Ruiz</strong><span>Foodie</span></div></div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p>"Ambiente cálido, sabores intensos y atención de primera. Nuestro restaurante favorito para celebrar."</p>
+        <div class="testi-user"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="Cliente"><div><strong>Andrea López</strong><span>Cliente</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESERVAS -->
+<section class="reservas" id="reservas">
+  <div class="container reservas-grid">
+    <div class="reservas-info">
+      <p class="section-eyebrow">Reserva tu mesa</p>
+      <h2>Vive la Experiencia<br>El Fogón Dorado</h2>
+      <p>Completa el formulario y nuestro equipo confirmará tu reserva a la brevedad. También puedes llamarnos directamente.</p>
+      <div class="info-item"><i class="fa-solid fa-phone"></i><div><strong>Llámanos</strong><span>+1 (555) 234-5678</span></div></div>
+      <div class="info-item"><i class="fa-solid fa-clock"></i><div><strong>Horario</strong><span>Lun - Dom: 12:00 pm - 11:00 pm</span></div></div>
+      <div class="info-item"><i class="fa-solid fa-location-dot"></i><div><strong>Dirección</strong><span>Av. Principal 123, Ciudad</span></div></div>
+    </div>
+    <form class="reservas-form" id="reservaForm">
+      <h3>Formulario de Reserva</h3>
+      <div class="form-row">
+        <div class="form-group"><label>Nombre completo</label><input type="text" required placeholder="Tu nombre"></div>
+        <div class="form-group"><label>Teléfono</label><input type="tel" required placeholder="Tu teléfono"></div>
+      </div>
+      <div class="form-row">
+        <div class="form-group"><label>Fecha</label><input type="date" required></div>
+        <div class="form-group"><label>Hora</label><input type="time" required></div>
+      </div>
+      <div class="form-group"><label>Número de personas</label>
+        <select required>
+          <option value="">Selecciona</option>
+          <option>1 persona</option><option>2 personas</option><option>3 personas</option>
+          <option>4 personas</option><option>5+ personas</option>
+        </select>
+      </div>
+      <div class="form-group"><label>Comentarios (opcional)</label><textarea rows="3" placeholder="Alguna solicitud especial..."></textarea></div>
+      <button type="submit" class="btn btn-primary full"><i class="fa-solid fa-check"></i> Confirmar Reserva</button>
+      <p class="form-msg" id="formMsg"></p>
+    </form>
+  </div>
+</section>
+
+<!-- CONTACTO / FOOTER -->
+<footer class="footer" id="contacto">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <a href="#home" class="logo"><i class="fa-solid fa-fire"></i> El Fogón <span>Dorado</span></a>
+      <p>Cocina de autor con alma casera. Cada plato cuenta una historia de fuego y tradición.</p>
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Enlaces</h4>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#menu">Menú</a>
+      <a href="#galeria">Galería</a>
+      <a href="#reservas">Reservas</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <p><i class="fa-solid fa-location-dot"></i> Av. Principal 123, Ciudad</p>
+      <p><i class="fa-solid fa-phone"></i> +1 (555) 234-5678</p>
+      <p><i class="fa-solid fa-envelope"></i> hola@elfogondorado.com</p>
+    </div>
+    <div class="footer-col">
+      <h4>Horario</h4>
+      <p>Lunes a Viernes: 12:00 - 23:00</p>
+      <p>Sábado y Domingo: 12:00 - 00:00</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> El Fogón Dorado. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<a href="#home" class="back-top" id="backTop" aria-label="Volver arriba"><i class="fa-solid fa-arrow-up"></i></a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
